@@ -169,24 +169,39 @@
 
 // ============> Shell Exercise <============ //
 
+// ==> Shells
+
+/*
 // ==> Show your current shell
-  /*
+
      echo $0
      echo $SHELL
     */
 
 
-  /*
+/*
      zsh - more extensible version of bash
      ~/.zshrc
     */
 
-  /*
+/*
      bash - Bourne again shell
      ~/.bash_profile
     */
 
+/*
 // ==> Reload shell
-  /*
+
      source <shell config location>
     */
+
+
+
+
+/*
+// ==> shell configuration 
+
+     1.Open your shell config
+     2.Add a line to make your shell tell you 
+       good morning
+   */
