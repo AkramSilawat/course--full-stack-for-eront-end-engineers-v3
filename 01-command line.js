@@ -109,6 +109,8 @@
 
 
 
+
+
 // ============> VIM Exercise <============ //
 
 
@@ -135,9 +137,10 @@
 */ 
 
 
-/*                                  
+
 // ===>> VIM        --->> [Save and Exit :wq]
 
+/*                                  
     insert mode     -    i
 
     normal mode     -    ESC
@@ -148,9 +151,9 @@
 
 
 
-/*
 // ===>> VIM                               
 
+/*
     1.Navigate to your home directory
     2.Make a directory called "temp"
     3.Open a file named "test" with vi
@@ -159,3 +162,31 @@
 */
 
 // --->> ESC  :q!
+
+
+
+
+
+// ============> Shell Exercise <============ //
+
+// ==> Show your current shell
+  /*
+     echo $0
+     echo $SHELL
+    */
+
+
+  /*
+     zsh - more extensible version of bash
+     ~/.zshrc
+    */
+
+  /*
+     bash - Bourne again shell
+     ~/.bash_profile
+    */
+
+// ==> Reload shell
+  /*
+     source <shell config location>
+    */
