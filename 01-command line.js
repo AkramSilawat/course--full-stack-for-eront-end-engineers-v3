@@ -205,3 +205,16 @@
      2.Add a line to make your shell tell you 
        good morning
    */
+
+
+
+
+
+// ============> Shell Solution <============ //
+
+// --> temp  cd ..
+
+// --> ~  echo $0
+
+// --> ~  vi ~/.zshrc
+
