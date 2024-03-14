@@ -104,4 +104,58 @@
 // -->  man 
 
 // -->  man rm      
+// --->> -R
+
+
+
+
+// ============> VIM Exercise <============ //
+
+
+// ===>> In case you get lost
+
+/*
+    1. cd.. - Move up one directory
+    2. pwd - print working directory
+    3. clear - clear terminal output
+    4. ctrl + c - Exit program
+    5. cd ~ - navigate to home directory
+*/
  
+
+// ===>> VIM 
+
+/*
+    insert mode     -    Text Editing
+
+    normal mode     -    Primary mode
+
+    command mode    -    Searching, Saving, Exiting
+
+*/ 
+
+
+/*                                  
+// ===>> VIM        --->> [Save and Exit :wq]
+
+    insert mode     -    i
+
+    normal mode     -    ESC
+
+    command mode    -    :
+
+*/ 
+
+
+
+/*
+// ===>> VIM                               
+
+    1.Navigate to your home directory
+    2.Make a directory called "temp"
+    3.Open a file named "test" with vi
+    4.Write a few lines
+    5.Save and Exit
+*/
+
+// --->> ESC  :q!
