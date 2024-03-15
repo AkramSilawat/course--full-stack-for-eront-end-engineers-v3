@@ -68,7 +68,9 @@
 
 /*
     Virtulization : Dividing a Server resourses into virtual computer
+
     Virtual Machine : Digital Version of a  physical computer
+    
     VPS : Virtual Private Server.
     */
    
