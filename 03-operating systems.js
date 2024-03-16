@@ -93,7 +93,7 @@
                       // ==> SSH - secure socket shell
 // -- private key --
 
-
+// -----------------------------------
 
 /*
 // --->> SSH
@@ -107,7 +107,7 @@
     Password        ---------------->>      Encrypted
     */
 
-
+// -----------------------------------
 
 
 // -->>Exercise 
@@ -119,6 +119,7 @@
         3. Nmae your key "fsfe"
         */    
 
+// -----------------------------------
 
 // -->Command
     
@@ -141,8 +142,7 @@
 // ~ ssh  cat fsfe.pub         ---> show public key
 
 
-// ~ ssh  ls | grep fsfe
-
+// -----------------------------------
 
  /*
 // --->> SSH key
@@ -153,14 +153,65 @@
     -> ssh-keygen
     */
 
+// ----------------------------------
 
 /*
 // --->> SSH key        -->> Press  esc  to exit full screen
 
     -->> .ssh ls | grep fsfe
-    fsfe      <---------------      private Key 
-    fsfe.pub  <---------------      Public Key
+    fsfe      <---------------   private Key 
+    fsfe.pub  <---------------   Public Key
 
     1. Copy the public key into Digital Ocean
     2. Finish setting up the server
     */   
+
+
+// ~ ssh  ls | grep fsfe
+// -> fsfe
+// -> fsfe.pub
+
+// ~ ssh  cat fsfe.pub
+
+
+// ------------------------------------
+
+
+// -->> Exercise Login
+/*
+    1. ssh into your server
+    --> ssh root@<your_IP>
+
+    2. ssh into your server your private key 
+    --> ssh -i ~/.ssh/fsfe root<your_IP>       
+
+    3. Exit your sever
+    --> exit
+    */
+
+
+
+// ============> SSH Key Recap <============ //
+
+// --->> SSH Key
+/*
+    1. Move into the ~/ssh directory
+    --> cd ~/.SSH
+
+    2. Generate a key using ss-keygen
+    --> ssh-keygen
+
+// ---------------------------------------
+
+ /*
+    1. Make sure Keychain is active
+    --> vi ~/.ssh/config
+
+    2. Add private key to keychain
+    --> ssh-add --apple-use-keychain fsfe
+
+
+          Host *
+            AddkeysToAgent yes
+            UseKeychain  yes
+        */
