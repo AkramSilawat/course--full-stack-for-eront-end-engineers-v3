@@ -83,4 +83,40 @@
 
 
 
-    
+// ============> Setup SSH Keys For Login <============ //
+
+// --->> SSH
+
+// --- SSH key pair --- 
+
+// -- public key --
+                      // ==> SSH - secure socket shell
+// -- private key --
+
+
+
+/*
+// --->> SSH
+
+    your Computer                           Server
+    _____________                           ___________
+    Private Key     <<----------------      Public Key
+      (secret)
+                    encrypted messages  
+
+    Password        ---------------->>      Encrypted
+    */
+
+
+
+
+// -->>Exercise 
+/*
+    --> SSH key
+       
+        1. Move into the ~./ssh directory
+        2. Genrate a key using ssh-keygen
+        3. Nmae your key "fsfe"
+        */    
+
+
