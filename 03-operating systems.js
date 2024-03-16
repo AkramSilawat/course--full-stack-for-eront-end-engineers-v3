@@ -120,3 +120,47 @@
         */    
 
 
+// -->Command
+    
+// ~ temp  cd ~/.ssh  
+
+// ~ .ssh  ls
+// -->> id_rsa  id_rsa.pub  known_hosts  known_hosts.old
+
+// ~ .ssh  rm -rf fsfe*
+
+// ~ .ssh  ls
+
+// ~ .ssh  clear
+
+
+// ~ .ssh  ssh-keygen          ---> ssh key genrate fsfe is name 
+// -->> Generating public/private rsa key pair.
+// -->> Enter file in which to save the key (/home/akram/.ssh/id_rsa):
+
+// ~ ssh  cat fsfe.pub         ---> show public key
+
+
+// ~ ssh  ls | grep fsfe
+
+
+ /*
+// --->> SSH key
+
+    1. Move into the ~/.ssh directory
+    -> cd ~/.ssh
+    2. Genrate a key using ssh-keygen
+    -> ssh-keygen
+    */
+
+
+/*
+// --->> SSH key        -->> Press  esc  to exit full screen
+
+    -->> .ssh ls | grep fsfe
+    fsfe      <---------------      private Key 
+    fsfe.pub  <---------------      Public Key
+
+    1. Copy the public key into Digital Ocean
+    2. Finish setting up the server
+    */   
