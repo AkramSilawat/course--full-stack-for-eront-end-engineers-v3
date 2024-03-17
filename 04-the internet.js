@@ -74,3 +74,25 @@
 
 
 
+// ============> Network Tools Exercise <============ //
+
+/*
+        1. Check status of a network host
+           ping google.com
+            
+        2. Follow the path of your request
+           traceroute google.com
+
+        3. Show network status
+           netstat -lt | less                
+        */
+
+
+
+// --->> Command 
+
+// -> .ssh  traceroute goolge.com
+
+// -> .ssh  man traceout 
+
+// -> .ssh  man traceroute
