@@ -32,7 +32,7 @@
              |                                  /|\
             \|/                                  | 
             ISP                              Server cluster
-             |                                  /|\
+             |                                   /|\
             \|/                                  |  
         Tier 1 ISP  --->  Tier 1 ISP  ----->  Datacenter
     */
