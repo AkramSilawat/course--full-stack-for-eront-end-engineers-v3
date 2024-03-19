@@ -96,3 +96,19 @@
 // -> .ssh  man traceout 
 
 // -> .ssh  man traceroute
+
+
+
+// Internet & Networking Terminology
+            
+/*
+    TCP - transmission contrl protocol
+            
+    UDP - User datagram protocol
+
+    ICMP - internet control message protocol
+
+    Packet  - unit of data transmitted over a network
+    */
+
+    
