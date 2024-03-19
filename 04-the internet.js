@@ -99,7 +99,7 @@
 
 
 
-// Internet & Networking Terminology
+// -->> Internet & Networking Terminology
             
 /*
     TCP - transmission contrl protocol
@@ -111,4 +111,25 @@
     Packet  - unit of data transmitted over a network
     */
 
-    
+
+
+//--->> How to internet works
+
+/*  
+        TCP/IP 
+                --> google.com <-- 
+                                       
+       [PC]                           [Server]
+    127.0.0.1                              ??
+
+    */
+
+
+
+// -->> Terminology 
+/*
+    DNS - domain name server
+
+    Nameserver - hold DNS records to translate
+                 domain names into IP addresses
+    */
