@@ -99,8 +99,9 @@
 
 
 
-// -->> Internet & Networking Terminology
-            
+// ============> Internet & Networking Terminology <============ //
+
+//-->> Terminology
 /*
     TCP - transmission contrl protocol
             
@@ -110,6 +111,53 @@
 
     Packet  - unit of data transmitted over a network
     */
+
+
+
+// ~~~~ TCP vs UDP Communication :- ~~~ //
+
+/*
+        ~~ TCP HANDSHAKE :- much slower. ~~
+
+              SYN ----------->  
+
+    Sender    <--------SYN ACK      Reciver
+            
+              ACK ----------->            
+                           
+*/
+
+
+
+// UDP :- Is a one way. usefull for streaming video. it is faster
+
+/*
+                     UDP
+
+              <------- REQUEST
+
+              RESPONSE ------>
+              
+    Sender    RESPONSE ------>    Reciver
+
+              RESPONSE ------>       
+*/
+
+
+
+
+
+// ============> DNS & URLs <============ //
+
+// -->> How the internet works 
+
+/*
+    COMPUTER
+   -----------  ----->TCP/IP-------> frontendmasters.com -------> server ??
+    127.0.0.1
+*/
+
+
 
 
 
