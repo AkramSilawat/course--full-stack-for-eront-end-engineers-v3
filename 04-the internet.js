@@ -206,17 +206,43 @@
 
        --> blog.yourdomain.com/en/fulllstack?test=true                                
         
-        ~ blog.yourdomain.com  -  subdomain
+        ~ blog.yourdomain.com  ->  subdomain
 
-        ~ yourdomain.com  -  domain
+        ~ yourdomain.com  ->  domain
 
-        ~ .com  -  tld
+        ~ .com  ->  tld
 
-        ~ /en/fullstack?  -  Path
+        ~ /en/fullstack?  ->  Path
 
-        ~ test=true  -  query paramete 
+        ~ test=true  ->  query paramete 
         */
 
 
 
 
+// ============> Buying a Domain Name <============ //
+/*
+    1. Buy a domain with a register 
+       a. Update the nameserver to use Digital Ocean
+    2. On Digital Ocean, add two A record with your IP Address
+
+    * @
+    * www
+
+    */ 
+
+// -->> Command 
+
+// -> .ssh dig jemstack.lol
+
+
+
+// -->>> Server Setup 
+
+/*
+    Topics : 
+
+    * Server setup
+    * Web Servers
+    * NodeJS
+*/
