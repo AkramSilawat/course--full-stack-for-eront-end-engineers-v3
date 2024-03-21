@@ -224,6 +224,7 @@
 /*
     1. Buy a domain with a register 
        a. Update the nameserver to use Digital Ocean
+
     2. On Digital Ocean, add two A record with your IP Address
 
     * @
@@ -231,11 +232,12 @@
 
     */ 
 
+
 // -->> Command 
 
 // -> .ssh dig jemstack.lol
 
-
+// -----------------------------------
 
 // -->>> Server Setup 
 
@@ -246,3 +248,32 @@
     * Web Servers
     * NodeJS
 */
+
+
+
+
+// =============> Update & Restart Server <============ //
+
+// --->> Brand new server
+
+/*
+    1. Update software
+    2. Restart your server
+    3. Create a new user
+    4. Make that user a superuser
+    5. Enable login for new user
+    6. Disable root login
+    */
+
+// ----------------------------------------
+
+// --->> Updating  and restarting
+
+/*
+    1. ssh into your server
+    2. Update software
+        apt update 
+        apt upgrade
+    3. Restart the server
+        shutdown now -r
+    */  
