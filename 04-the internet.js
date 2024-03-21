@@ -7,7 +7,7 @@
     * putting it together
 */
 
-// -------------------------------------
+// -------------------------------------------
 
 // ==>> How does the internet work?
 
@@ -17,7 +17,7 @@
 //           Extra magic?
 //        <<----------------  Backand
 
-// --------------------------------------
+// ---------------------------------------------
 
 // ==>> The internet is built on cooperation and rules
 
@@ -37,7 +37,7 @@
         Tier 1 ISP  --->  Tier 1 ISP  ----->  Datacenter
     */
 
-
+// -------------------------------------------------
 
 // -->> Terminology
     /*
@@ -60,7 +60,7 @@
         0.0.0.0                2001:db8::ff00:4288   
         */   
 
-
+// -------------------------------------------------
 
 // -->> Terminology
     /* 
@@ -73,6 +73,7 @@
         */
 
 
+    
 
 // ============> Network Tools Exercise <============ //
 
@@ -87,7 +88,7 @@
            netstat -lt | less                
         */
 
-
+// -------------------------------------------------
 
 // --->> Command 
 
@@ -112,7 +113,7 @@
     Packet  - unit of data transmitted over a network
     */
 
-
+// -----------------------------------------------------
 
 // ~~~~ TCP vs UDP Communication :- ~~~ //
 
@@ -127,6 +128,7 @@
                            
 */
 
+// --------------------------------------------------------
 
 
 // UDP :- Is a one way. usefull for streaming video. it is faster
@@ -152,32 +154,69 @@
 // -->> How the internet works 
 
 /*
-    COMPUTER
-   -----------  ----->TCP/IP-------> frontendmasters.com -------> server ??
+    
+    Computer -----> TCP/IP -----> frontendmasters.com ----->  server ??
     127.0.0.1
 */
 
+// ------------------------------------------------------
+
+
+// -->> Teeminology
+
+//  DNS  ~  domain name system
+
+//  Nameserver  ~  hold DNS records to translate domain 
+//                 names into IP address
+
+
+// -------------------------------------------------------
+
+
+// -->> DNS records 
+
+//  A record  ~  maps name to IP address
+
+//  CNAME  ~  maps name to name
 
 
 
-
-//--->> How to internet works
-
-/*  
-        TCP/IP 
-                --> google.com <-- 
-                                       
-       [PC]                           [Server]
-    127.0.0.1                              ??
-
-    */
-
-
-
-// -->> Terminology 
+// -->> Exercise DNS 
 /*
-    DNS - domain name server
+   -->  Lookup the nameservers for an domain
+      - nslookup frontendmasters.com
 
-    Nameserver - hold DNS records to translate
-                 domain names into IP addresses
-    */
+   -->  Lookup the DNS records for a domain
+      - dig frontendmasters.com
+
+
+   -->  View browser DNS cache
+      - Chrome ~ chrome://net-internals/#dns
+
+      - Firefox ~ about:networking#dns
+*/
+
+// --------------------------------------------------------
+
+// -->> Antonomy of a URL
+
+/*
+    
+    --->>> URL - uniform resource locator
+
+       --> blog.yourdomain.com/en/fulllstack?test=true                                
+        
+        ~ blog.yourdomain.com  -  subdomain
+
+        ~ yourdomain.com  -  domain
+
+        ~ .com  -  tld
+
+        ~ /en/fullstack?  -  Path
+
+        ~ test=true  -  query paramete 
+        */
+
+
+
+
